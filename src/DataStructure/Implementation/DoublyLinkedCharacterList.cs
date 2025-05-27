@@ -17,7 +17,7 @@ public class DoublyLinkedCharacterList : BaseList
 
     public override int Length()
     {
-        return _count + 52;
+        return _count;
     }
     
     public override void Append(char element)
