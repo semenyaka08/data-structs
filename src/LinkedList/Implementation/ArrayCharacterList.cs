@@ -2,7 +2,7 @@
 
 namespace LinkedList.Implementation;
 
-public class ArrayCharacterList : BaseList
-{
-    
-}
+// public class ArrayCharacterList : BaseList
+// {
+//     
+// }
