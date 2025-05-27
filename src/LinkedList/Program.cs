@@ -16,6 +16,15 @@ class Program
         DemonstrateList(new DoublyLinkedCharacterList(), "Двобічно зв'язаний список");
         
         Console.WriteLine("\n" + new string('=', 60) + "\n");
+        
+        // Демонстрація списку на базі масиву
+        Console.WriteLine("2. ДЕМОНСТРАЦІЯ СПИСКУ НА БАЗІ МАСИВУ:");
+        Console.WriteLine("=" + new string('=', 50));
+        DemonstrateList(new ArrayCharacterList(), "Список на базі масиву");
+        
+        Console.WriteLine("\n=== Кінець демонстрації ===");
+        Console.WriteLine("Натисніть будь-яку клавішу для завершення...");
+        Console.ReadKey();
     }
     
     private static void DemonstrateList(BaseList list, string listType)
