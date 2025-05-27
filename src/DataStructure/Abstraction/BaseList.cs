@@ -1,4 +1,4 @@
-﻿namespace LinkedList.Abstraction;
+﻿namespace DataStructure.Abstraction;
 
 public abstract class BaseList
 {

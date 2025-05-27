@@ -1,7 +1,7 @@
-﻿using LinkedList.Abstraction;
-using LinkedList.Implementation;
+﻿using DataStructure.Abstraction;
+using DataStructure.Implementation;
 
-namespace LinkedList;
+namespace DataStructure;
 
 class Program
 {

@@ -1,6 +1,6 @@
-﻿using LinkedList.Abstraction;
+﻿using DataStructure.Abstraction;
 
-namespace LinkedList.Implementation;
+namespace DataStructure.Implementation;
 
 public class ArrayCharacterList : BaseList
 {
