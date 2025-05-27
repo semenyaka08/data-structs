@@ -6,7 +6,7 @@ public class DoublyLinkedCharacterList : BaseList
 {
     private class Node(char data)
     {
-        public char Data = data;
+        public readonly char Data = data;
         public Node? Next;
         public Node? Prev;
     }
@@ -172,7 +172,7 @@ public class DoublyLinkedCharacterList : BaseList
         if (_count <= 1) return;
 
         var current = _head;
-        Node temp = null;
+        Node? temp = null;
 
         while (current != null)
         {
@@ -257,15 +257,15 @@ public class DoublyLinkedCharacterList : BaseList
         
         if (index < _count / 2)
         {
-            current = _head;
+            current = _head!;
             for (int i = 0; i < index; i++)
-                current = current.Next;
+                current = current.Next!;
         }
         else
         {
-            current = _tail;
+            current = _tail!;
             for (int i = _count - 1; i > index; i--)
-                current = current.Prev;
+                current = current.Prev!;
         }
         
         return current;
