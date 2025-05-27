@@ -74,9 +74,7 @@ class Program
             int lastIndex = list.FindLast(searchChar);
             Console.WriteLine($"   Перше входження '{searchChar}': {firstIndex}");
             Console.WriteLine($"   Останнє входження '{searchChar}': {lastIndex}");
-            
-            char notFound = 'z';
-            
+
             // 6. Клонування
             Console.WriteLine("\n6. Клонування списку:");
             var clonedList = list.Clone();
